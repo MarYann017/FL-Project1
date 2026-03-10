@@ -9,7 +9,7 @@ os.makedirs("CENTRAL_SERVER/Models", exist_ok=True)
 os.makedirs("CENTRAL_SERVER/Storage", exist_ok=True)
 
 # Load dataset
-df = pd.read_csv("diabetes_prediction_dataset.csv")
+df = pd.read_csv("dataset/diabetes_prediction_dataset.csv")
 target = "diabetes"
 
 # Encode categorical columns
