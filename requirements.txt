@@ -1,13 +1,13 @@
 # Core data science libraries
-pandas==2.1.1
+pandas==2.0.3        # compatible with Python 3.10–3.14
 numpy==1.26.0
-scikit-learn==1.3.0
+scikit-learn==1.3.2
 joblib==1.3.2
 
-# For API / deployment (Streamlit)
+# For API / dashboard
 streamlit==1.29.0
-flask==3.2.3
+flask==2.3.3          # latest stable Flask version
 
-# Optional: for visualization if needed
+# Optional visualization
 matplotlib==3.8.1
 seaborn==0.12.3
